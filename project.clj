@@ -1,4 +1,4 @@
-(defproject breakform "0.2.0-SNAPSHOT"
+(defproject breakform "0.3.0-SNAPSHOT"
   :description "in-REPL debugger-style breakpoints."
   :url "http://example.com/FIXME"
   :license {:name "MIT"
