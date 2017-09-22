@@ -20,6 +20,13 @@ This library alleviates this pain by:
 * providing macros that let you save snapshots of the local environment on the fly: `bf.code/spy` (which additionally saves the evaluated wrapped expression - or the resulting error, which you can inspect using `bf.code/saved-value`) and `bf.code/brk` (which acts as a breakpoint, blocking the flow of the program until you choose to release it from the REPL using `bf.code/loose!`, possibly with a value which supersedes the evaluation of the wrapped expression using `bf.code/loose-with!` or `bf.code/loose-with-ex!`)
 * providing macros that let you restore these snapshots from the REPL: `bf.code/defsc` (recreates the environment with global vars, i.e by `def`-ing the local names) and `bf.code/letsc` (recreates the environment with locals, i.e by `let`-ing the local names)
 
+## TODO
+
+* Demo video
+* Usage documentation
+* disable / enable code sites
+* clojure.main/repl sub-repl
+* experiment with ClojureScript
 
 ## License
 
