@@ -1,3 +1,7 @@
+# DEPRECATED 
+
+**Please use the [scope-capture](https://github.com/vvvvalvalval/scope-capture) library instead.**
+
 # breakform
 
 [![Clojars Project](https://img.shields.io/clojars/v/breakform.svg)](https://clojars.org/breakform)
